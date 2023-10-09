@@ -1,11 +1,12 @@
 import './App.css';
+import Body from './components/Body';
+import Header from './components/Header';
 
 function App() {
   return (
     <div>
-      <h1 className='text-red-900'>
-        Hello YouTube
-      </h1>
+      <Header />
+      <Body />
     </div>
   );
 }

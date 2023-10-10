@@ -16,8 +16,14 @@ const Header = () => {
         />
       </div>
       <div className="col-span-9 text-center">
-        <input className="w-1/2 border border-gray-400 rounded-l-full p-2" type="text" placeholder="Search"/>
-        <button className="border border-gray-400 rounded-r-full p-2 bg-gray-100 pr-3">🔍</button>
+        <input
+          className="w-1/2 border border-gray-400 rounded-l-full p-2"
+          type="text"
+          placeholder="Search"
+        />
+        <button className="border border-gray-400 rounded-r-full p-2 bg-gray-100 pr-3">
+          🔍
+        </button>
       </div>
       <div className="flex justify-end col-span-2 pr-10">
         <img
